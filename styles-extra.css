@@ -1,0 +1,17 @@
+/* ST Access refinements: raster logo variants and survey-led domestic work. */
+.brand img { width: 116px; height: 58px; object-fit: contain; }
+.hero { min-height: 660px; }
+.hero-content { padding: 74px 0 61px; }
+.domestic-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 52px; }
+.domestic-scope { display: flex; min-height: 260px; flex-direction: column; padding: 26px; border: 1px solid #a9bac5; background: #fff; }
+.domestic-scope > span { color: #b20c68; font-family: "Space Grotesk", sans-serif; font-size: 13px; font-weight: 800; }
+.domestic-scope h3 { margin: 38px 0 9px; font-size: 29px; }
+.domestic-scope p { margin: 0; color: #53616a; font-size: 13px; }
+.domestic-scope--featured { border: 2px solid #071119; background: #09131b; box-shadow: 6px 6px 0 var(--pink); color: #f6fcff; }
+.domestic-scope--featured p { color: #c6d5df; }
+.domestic-note { display: flex; gap: 25px; margin-top: 25px; padding: 17px 0; border-top: 1px solid #b3c1c9; border-bottom: 1px solid #b3c1c9; }
+.domestic-note span { min-width: 114px; color: #b20c68; font-size: 10px; font-weight: 900; letter-spacing: .1em; text-transform: uppercase; }
+.domestic-note p { margin: 0; color: #43515c; font-size: 13px; }
+.form-status { min-height: 1.5em; margin: 12px 0 0; color: var(--cyan); font-size: 12px; font-weight: 700; }
+.form-status.is-error { color: #ff83c3; }
+@media (max-width: 760px) { .brand img { width: 86px; height: 48px; } .hero { min-height: 640px; } .hero-content { padding: 45px 0 62px; } .domestic-grid { grid-template-columns: 1fr; gap: 12px; margin-top: 33px; } .domestic-scope { min-height: 205px; } .domestic-scope h3 { margin-top: 24px; } .domestic-note { display: block; } .domestic-note p { margin-top: 6px; } }
